@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+    android:onClick="onClickSong"
+	android:padding="5dp" >
+
+	<TextView
+		android:id="@+id/song_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#dedede"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<TextView
+		android:id="@+id/song_artist"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#dedede"
+		android:textSize="18sp" />
+
+</LinearLayout>

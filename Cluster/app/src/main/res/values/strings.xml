@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cluster</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="notification_playing">Now Playing</string>
+
+    <string-array name="nav_drawer_items">
+        <item >Player</item>
+        <item >Library</item>
+        <item >About</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_player</item>
+        <item>@drawable/ic_library</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>
